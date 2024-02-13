@@ -1,0 +1,72 @@
+Q1. Find the output for this code. Let input:- 2 3 6
+#include
+using namespace std;
+int main()
+{
+int x;
+cout << "Enter first number\n";
+cin >> x; // user will give ‘x’ a value.
+int y, m;
+cout << "Enter second number and value for taking modulus\n";
+cin >> y >> m; // user will give ‘y’ a value.
+int Z = (x * y) % m;
+cout << "Output is: " << Z;
+}
+Output
+Enter first number
+2
+Enter second number value for taking modulus
+3 6
+Output is: 0
+( Firstly 3*2 will be calculated which is 6 then 6%6 which will return remainder as 0. )
+Q2. Find the output for this code. Let input:- 3 2
+#include
+using namespace std;
+int main()
+{
+int x;
+cout<<"Enter first number\n";
+cin>>x; // user will give 'x' a value.
+int y;
+cout<<"Enter second number\n";
+cin>>y; // user will give 'y' a value.
+cout<<(x!=y)<<" "<<(x>=y);
+}
+Output
+Enter first number
+3
+Enter second number
+2
+1 1
+( It will return 1 1 because in first x is not equal to y so it will return true value which is 1 secondly x is greater than y which is also true so it will again return 1. )
+Q3. Find the output for this code. Let input:- 2 3
+#include
+using namespace std;
+int main()
+{
+int x,y;
+cin>>x>>y;
+x+=y;
+x-=y;
+x%=y;
+cout<<x;
+}
+Output
+2
+( If taken x = 2 and y = 3 )
+Q4. WAP for finding the volume of the cylinder by taking radius and height as input
+Output :-
+In output folder
+Q5. WAP to find the difference between ASCII of two characters ,take them as input .
+Output :-
+In output folder
+Q6. Find the output of the below code
+#include
+using namespace std;
+int main()
+{
+int i = ( 4 + 7 / 5 * 6 * 6+9 )% 100 ;
+cout<<i;
+}
+Output
+49
